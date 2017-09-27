@@ -1,0 +1,16 @@
+### Прогрессивное кеширование в браузере пользователя
+SetOutputFilter DEFLATE
+Header set Expires "max-age=29030400, public"
+Header unset ETag
+FileETag None
+
+ExpiresActive On
+ExpiresDefault A86400
+ExpiresByType application/x-javascript A604800
+ExpiresByType text/css A604800
+ExpiresByType text/html A86400
+ExpiresByType image/x-icon A2592000
+ExpiresByType image/webp A2592000
+ExpiresByType image/jpeg A2592000
+ExpiresByType image/jpg A2592000
+ExpiresByType font/x-ttf A2592000

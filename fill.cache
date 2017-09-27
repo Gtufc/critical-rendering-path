@@ -2,9 +2,6 @@ CACHE MANIFEST
 # Версия 1.0
 
 CACHE:
-project-2048.html
-project-mobile.html
-project-webperf.html
 check.js
 css/fonts/OpenSans-Bold.ttf
 css/fonts/OpenSans-Regular.ttf
@@ -18,7 +15,6 @@ img/unnamed.webp
 img/unnamed_1_.webp
 img/unnamed_2_.webp
 js/perfmatters.js
-views/pizza.html
 views/js/main.js
 views/images/pizza.webp
 views/images/pizzeria.webp

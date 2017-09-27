@@ -1,4 +1,3 @@
-AddType text/cache-manifest .cache
 # сжатие text, html, javascript, css, xml:
 <ifModule mod_deflate.c>
 AddOutputFilterByType DEFLATE text/html text/plain text/xml application/xml application/xhtml+xml text/css text/javascript application/javascript application/x-javascript
@@ -18,7 +17,7 @@ ExpiresByType image/png "access plus 30 days"
 ExpiresByType image/gif "access plus 43829 minutes"
 ExpiresByType application/x-shockwave-flash "access plus 2592000 seconds"
  
-# Включаем кэширование css, javascript и текстовых файлоф на одну неделю
+# Включаем кэширование css, javascript и текстовых файлов на одну неделю
 ExpiresByType text/css "access plus 604800 seconds"
 ExpiresByType text/javascript "access plus 604800 seconds"
 ExpiresByType application/javascript "access plus 604800 seconds"
